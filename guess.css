@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #130f40;
+  font-family: 'Kalam', cursive;
+}
+.main-heading {
+  color: #f0932b;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+hr {
+  width: 100%;
+  height: 5px;
+  background-color: #f0932b;
+  border: none;
+  outline: none;
+}
+.text {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.guess {
+  width: 80px;
+  height: 40px;
+  margin-left: 43%;
+  margin-top: 20px;
+}
+.buttons {
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+button {
+  padding: 5px;
+  background-color: #f0932b;
+  border: 1px solid #f0932b;
+  outline: none;
+  border-radius: 2px;
+}
+.scores {
+  display: flex;
+  color: #fff;
+}
+h3 {
+  margin: 15px;
+}
+.high-score {
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+}
+.scoored {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+}
+input {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
